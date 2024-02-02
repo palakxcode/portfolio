@@ -1,0 +1,150 @@
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: #242423;
+    font-family:'Poppins',sans-serif;
+    background-image: url("bgpic.jpeg");
+    background-size: cover;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    color: #cfdbd5;
+    /* backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(73, 75, 81, 0.55); */
+    background-color: #333533;
+    /* position: fixed; */
+    width: 100%;
+    
+  }
+  ul{
+    display: flex;
+    text-decoration: none;
+    color: #cfdbd5;
+    list-style: none;
+  }
+  li{
+    margin: 20px;
+    color: #cfdbd5;
+    text-decoration: none;
+    list-style: none;
+  }
+  a{
+    color: #cfdbd5;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #f5cb5c;
+    text-decoration: none;
+  }
+  .title {
+    font-size: 21px;
+    color: #cfdbd5;
+  }
+  .firstsec{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  .leftsec{
+    color: #f5cb5c;
+    margin-top: 100px;
+    font-size: 3rem;
+    font-weight: 400;
+    width: 30%;
+  }
+  .rightsec{
+    width: 30%;
+  }
+  img{
+    height: 364px;
+    width: 370px;
+    margin-top: 5px;
+  }
+  .txtcolor{
+    color: #cfdbd5;
+  }
+  #moto{
+    margin-top: 7px;
+    font-size: 22px;
+    color: #f5cb5c;
+    font-weight: 220;
+  }
+  #currently{
+    width: 200px;
+    margin-top: 100px;
+    font-size: 20px;
+  }
+  #currently span{
+    font-size: 15px;
+  }
+  .hi{
+    animation-name: handwave;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+  }
+  @keyframes handwave {
+0% {
+    transform: rotate( 0.0deg)
+}
+10% {
+    transform: rotate(14.0deg)
+}
+20% {
+    transform: rotate(-8.0deg)
+}
+30% {
+    transform: rotate(14.0deg)
+}
+40% {
+    transform: rotate(-4.0deg)
+}
+50% {
+    transform: rotate(10.0deg)
+}
+60% {
+    transform: rotate( 0.0deg)
+}
+100% {
+    transform: rotate( 0.0deg)
+}}
+
+.secondsec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 190px;
+    height: 254px;
+    background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    border-radius: 20px;
+    transition: all .3s;
+   }
+   
+   .card2 {
+    width: 190px;
+    height: 254px;
+    background-color: #1a1a1a;
+    border-radius:  5px;
+    transition: all .2s;
+   }
+   
+   .card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+    cursor: pointer;
+   }
+   
+   .card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+   }
