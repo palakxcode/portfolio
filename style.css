@@ -117,7 +117,7 @@
     transform: rotate( 0.0deg)
 }}
 
-.secondsec{
+.secondsec,.thirdsec{
     display: flex;
     align-items: center;
     justify-content: center;
